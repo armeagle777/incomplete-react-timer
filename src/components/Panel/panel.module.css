@@ -1,0 +1,36 @@
+.btn{
+    width: 32%;
+    border: none;
+    padding: 10px 0;
+    margin: 5px 0;
+    cursor: pointer;
+}
+.zeroButton{
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.btnContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.lastRow{
+    outline: none;
+    border: none;
+    width: 49%;
+    padding: 10px 0;
+    color: #fff;
+    cursor: pointer;
+}
+.startButton{
+    background: green;
+}
+.resetButton{
+    background: red;
+}
+.stopButton{
+    background: #e5e52a;
+}
